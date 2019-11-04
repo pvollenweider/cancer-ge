@@ -96,20 +96,6 @@ $('#submit-contact-form').click( function() {
     }
 });
 
-/*
-    The function below is used to:
-    1. enable the MixItUp plugin for filtering work items
-    2. refresh the scrollspy when the filters are applied
-*/
-$(function(){
-    $('#gallery').mixitup({
-        onMixEnd: function(){
-            $('[data-spy="scroll"]').each(function () {
-                var $spy = $('body').scrollspy('refresh');
-            });
-        }
-    });
-});
 
 $(document).ready(function() {
     /*
