@@ -140,4 +140,7 @@ $(document).ready(function() {
     $('#contact').parallax("50%", 0.2);
 
     //$('#clients').parallax("50%", 0.1);
+    $(function () {
+        $('abbr').tooltip()
+    })
 });
